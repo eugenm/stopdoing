@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.test.stopdoing.FXMLController">
+    <children>
+        <Label fx:id="label" layoutX="126.0" layoutY="153.0" minHeight="16" minWidth="69" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="126.0" AnchorPane.rightAnchor="125.0" AnchorPane.topAnchor="153.0" />
+      <ToggleButton fx:id="toggle" layoutX="99.0" layoutY="94.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="31.0" prefWidth="124.0" text="Start" AnchorPane.bottomAnchor="75.0" AnchorPane.leftAnchor="99.0" AnchorPane.rightAnchor="97.0" AnchorPane.topAnchor="94.0" />
+      <TextField fx:id="text" layoutX="67.0" layoutY="53.0" promptText="Enter Task name" />
+      <Text layoutX="124.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Task name:" />
+    </children>
+</AnchorPane>
